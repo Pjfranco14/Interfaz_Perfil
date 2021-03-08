@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+       width: 1300px;
+       height: 700px;
+        margin: auto;
+        margin-top: 60px;
+}
+
+.section{
+       width: 900px;
+       height: 700px;
+       background-color: white;
+       float:right;
+       border-top: 5px solid #527473;
+       border-bottom: 5px solid #527473;
+       border-right: 5px solid #527473;
+}
+.botones{
+       width: 900px;
+       height: 75px;
+       margin: auto;
+       background-color: #527473;
+   
+
+}.nav_botones{
+       width: 900px;
+       height: 75px;
+       background-color: #527473;
+       list-style: none;
+    
+       
+}
+.perfil{
+       width: 395px;
+       height: 710px;
+       background-color: #527473;
+       float:left;
+}
+.foto{
+       width: 300px;
+       height: 385px;
+       margin: auto;
+       margin-top: 130px;
+        background-color: #809A99;
+
+}
+.foto img{
+       width: 250px;
+       margin-left: 25px;
+        margin-top: 25px;
+}
+.perfil h1{
+       font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #FFFFFF;
+}
+.perfil p{
+       font-size: 20px;
+       text-align: center;
+       font-family: 'Roboto Condensed', sans-serif;
+       color: #FFFFFF;
+
+}
+#destacados{
+    width: 100px;
+    height: 25px;
+    background-color: #527473;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
+    margin-left: 48px;
+    margin-top: 18px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 1px 15px 1px;
+    border-bottom: 3px solid #527473;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#destacados:hover{
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    padding: 7px 1px 7px 1px;
+}
+#proyectos{
+    width: 100px;
+    height: 25px;
+    background-color: #527473;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 1px 15px 1px;
+    border-bottom: 3px solid #527473;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#proyectos:hover{
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    padding: 7px 1px 7px 1px;
+}
+#biografia{
+    width: 100px;
+    height: 25px;
+    background-color: #527473;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 1px 15px 1px;
+    border-bottom: 3px solid #527473;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#biografia:hover{
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    padding: 7px 1px 7px 1px;
+}
+.cont_destacados{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 8px;
+    display: none;
+}
+.destacados1{
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.destacados1:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+   
+}
+.destacados2{
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    margin: auto;
+    margin-right: 0px;
+    margin-top: 90px;
+    float:left;
+    transition: 0.8s;
+}
+.destacados2:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.destacados3{
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 90px;
+    float: right;
+    transition: 0.8s;
+}
+.destacados3:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.cont_proyectos{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 8px;
+    display: none;
+}
+.proyecto1{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto1:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.proyecto2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto2:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+    
+}
+.proyecto3{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto3:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.proyecto4{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto4:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.proyecto5{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto5:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+.proyecto6{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 75px;
+    display: inline-flex;
+    transition: 0.8s;
+}
+.proyecto6:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s;
+}
+
+.cont_biografia{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 8px;
+    display: none;
+}
+.activarCaja{
+    display: block;
+    
+}
+.cont_biografia p{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 50px 50px 50px 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
